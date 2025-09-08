@@ -3,10 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test" : "npx playwright test",
-    "testUI" : "npx playwright test --ui",
+    "test": "npx playwright test",
+    "testUI": "npx playwright test --ui",
     "report": "npx playwright show-report"
-
   },
   "keywords": [],
   "author": "",
@@ -15,5 +14,8 @@
   "devDependencies": {
     "@playwright/test": "^1.54.2",
     "@types/node": "^24.3.0"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^10.0.0"
   }
 }
